@@ -1,0 +1,9 @@
+azure-ai-evaluation
+notebook
+promptflow-azure
+azure-identity
+openai
+azure-ai-projects
+ipykernel
+promptflow
+promptflow.core
