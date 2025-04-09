@@ -1,6 +1,6 @@
 # GenAI Evaluations
 
-Evaluating Generative AI responses for quality and consistency.
+Evaluating Generative AI responses for quality, risk, security and safety.
 
 ![Azure AI Foundry Evaluations](images/ai-foundry-evals.jpg)
 
