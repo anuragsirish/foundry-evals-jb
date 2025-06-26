@@ -1,9 +1,12 @@
 azure-ai-evaluation
-notebook
-promptflow-azure
 azure-identity
-openai
 azure-ai-projects
-ipykernel
+openai
+python-dotenv
 promptflow
-promptflow.core
+promptflow-azure
+promptflow-core
+notebook
+ipykernel
+pandas
+typing-extensions
