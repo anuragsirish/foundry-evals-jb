@@ -1,6 +1,8 @@
-# Evaluation Guide for Azure AI Agent Quality Assessment
+# Azure AI Foundry - Agent Evaluation Pipeline
 
-This repository implements a comprehensive evaluation framework for Azure AI agents using multiple evaluation categories. This guide explains each evaluator and how they're used in our foundry evaluation pipeline.
+🚀 **A comprehensive evaluation framework for Azure AI agents using multiple evaluation categories.**
+
+This repository provides a complete evaluation pipeline with **10 specialized evaluators** across 4 categories, designed for thorough assessment of AI agent quality, safety, and performance.
 
 ## 📋 Overview
 
