@@ -202,17 +202,6 @@ The **Model Endpoint** is a placeholder endpoint designed for integration with l
 - 🔄 **Real-time responses**: Get fresh responses for each evaluation run
 - 🔄 **Production testing**: Evaluate actual agent performance in real scenarios
 
-#### Implementation Pattern
-```python
-# Instead of using static response from JSONL:
-# response = data["response"]
-
-# Use live agent endpoint:
-# response = model_endpoint.get_response(
-#     query=data["query"], 
-#     context=data["context"]
-# )
-```
 
 #### Benefits of Live Integration
 - **🎯 Real Performance**: Evaluate actual agent behavior, not pre-written responses
