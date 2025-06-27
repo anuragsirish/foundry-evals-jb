@@ -12,10 +12,10 @@ Our evaluation framework covers four main categories with **10 total evaluators*
 - **General Purpose** (3 evaluators) - For overall response quality
 - **Safety & Security** (2 evaluators) - For content safety and security
 
-## 🚀 Main Evaluation Script: `foundry_evaluation.py`
+## 🚀 Main Evaluation Script: `foundry_evaluation.py` (Runs locally and generates outputs locally)
 
 The **Foundry Evaluation Script** is our primary comprehensive evaluation tool that:
-- ✅ **Runs all 10 evaluators** across 4 categories
+- ✅ **Runs all 10 evaluators locally** across 4 categories
 - ✅ **Reads from `data/sample_data.jsonl`** automatically
 - ✅ **Generates 4 separate JSONL files** for each category
 - ✅ **Provides detailed console output** with scores and results
@@ -33,7 +33,7 @@ Results are saved to `evaluation_results/` with timestamp:
 - `foundry_general_purpose_results_[timestamp].jsonl`
 - `foundry_safety_security_results_[timestamp].jsonl`
 
-## ☁️ Enhanced Cloud Deployment: `deploy_to_cloud2.py`
+## ☁️ Enhanced Cloud Deployment: `deploy_to_cloud2.py` (Runs locally and pushes the results to AI Foundry)
 
 The **Cloud Deployment Script** deploys all evaluators to Azure AI Foundry with improved reliability and error handling.
 
